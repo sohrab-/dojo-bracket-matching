@@ -1,0 +1,25 @@
+{
+  "name": "dojo-bracket-matching",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Coding Dojo: Bracket matching",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "watch:test": "mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sohrab-/dojo-bracket-matching.git"
+  },
+  "keywords": [
+    "dojo"
+  ],
+  "author": "sohrab",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  }
+}

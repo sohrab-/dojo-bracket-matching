@@ -1,0 +1,30 @@
+{
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14",
+  "remoteUser": "node",
+  "postCreateCommand": "npm install",
+
+  "extensions": [
+    // Prettier formatting
+    "esbenp.prettier-vscode",
+    // VS Code Live Share extension pack
+    "ms-vsliveshare.vsliveshare-pack",
+    // Test UI
+    "hbenl.vscode-test-explorer",
+    "hbenl.vscode-mocha-test-adapter",
+    "hbenl.vscode-test-explorer-liveshare",
+    // Remote dojo stuff
+    "lostintangent.vsls-whiteboard",
+    "pluralsight.live-share-mob-timer"
+  ],
+  
+  "settings": {
+    "editor.tabSize": 2,
+    "[javascript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveshare.anonymousGuestApproval": "accept",
+    "liveshare.autoShareTerminals": false,
+    "liveshare.increasedGuestLimit": true
+  }
+}
